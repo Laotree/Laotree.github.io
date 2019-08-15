@@ -1,0 +1,221 @@
+######################
+# Project Specific
+######################
+build/
+out/
+
+######################
+# Node
+######################
+/node/
+node_tmp/
+node_modules/
+npm-debug.log.*
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+upload.log
+node_modules
+bower_components
+qiniu.json
+.happypack
+.cache-loader
+*/dist/
+*/yarn.lock
+*/package-lock.json
+
+######################
+# SASS
+######################
+.sass-cache/
+
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+tmp/
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.factorypath
+/src/main/resources/rebel.xml
+
+# External tool builders
+.externalToolBuilders/**
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Intellij
+######################
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+classes/
+
+######################
+# Visual Studio Code
+######################
+.vscode/
+
+######################
+# umi
+######################
+
+.umi
+.umi-production
+
+######################
+# Maven
+######################
+/log/
+/target/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Package Files
+######################
+*.war
+*.ear
+*.db
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar
+
+######################
+# ESLint
+######################
+.eslintcache
+
+######################
+# APP
+######################
+
+tezign-mobile/build/
+tezign-mobile/*.pbxuser
+tezign-mobile/!default.pbxuser
+tezign-mobile/*.mode1v3
+tezign-mobile/!default.mode1v3
+tezign-mobile/*.mode2v3
+tezign-mobile/!default.mode2v3
+tezign-mobile/*.perspectivev3
+tezign-mobile/!default.perspectivev3
+tezign-mobile/xcuserdata
+tezign-mobile/*.xccheckout
+tezign-mobile/*.moved-aside
+tezign-mobile/DerivedData
+tezign-mobile/*.hmap
+tezign-mobile/*.ipa
+tezign-mobile/*.xcuserstate
+tezign-mobile/project.xcworkspace
+
+tezign-mobile/*.iml
+tezign-mobile/.idea
+tezign-mobile/.gradle
+tezign-mobile/local.properties
+
+tezign-mobile/buck-out/
+tezign-mobile/\.buckd/
+tezign-mobile/android/app/libs
+tezign-mobile/android/keystores/debug.keystore
+
+######################
+# tezign-web
+######################
+
+tezign-web/__dev
+tezign-web/rev
+tezign-web/dist
+tezign-web/.tpls
+tezign-web/tests
+tezign-web/qiuniu/
+
+
+######################
+# tezign-web-admin3
+######################
+
+# production
+tezign-web-admin3/dist
+
+######################
+# tezign-web-contract-ali
+######################
+
+# production
+tezign-web-contract-ali/dist
+
+webpack.config.js
+tsconfig.json
+
