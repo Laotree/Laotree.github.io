@@ -1,0 +1,24 @@
+/*!
+css
+*/
+#top {
+	background: #E4F4FD;
+}
+#home-top {
+    background: #E4F4FD;
+}
+footer {
+	background: #E4F4FD;
+}
+.col-md-4 {
+	text-align: center;
+}
+
+.btn-hldr a img	{
+	vertical-align: sub;
+    width: 20px;
+}
+
+.btn-hldr .main-btn {
+	padding: .75em 2em .75em 2em;
+}
