@@ -10,6 +10,9 @@ css
 footer {
 	background: #E4F4FD;
 }
+p a {
+	font-weight: 400;
+}
 .col-md-4 {
 	text-align: center;
 }
