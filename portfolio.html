@@ -21,7 +21,7 @@
 	<script src="./js/respond.min.js"></script>
 	<script src="./js/modernizr.js"></script>
 	<link rel="stylesheet" href="./css/common.css" />
-
+	<link rel="stylesheet" href="./css/portfolio.css" />
 	
 	
 </head>
@@ -67,126 +67,17 @@
 		
 		
 		</header>
-		<div class="masthead-wrap">
-		
-			<div id="title">
-			
-				
-			
-				<div class="container">
-				
-					<!-- <div class="transistion cloud left-cloud"></div>
-					<div class="transistion cloud right-cloud"></div> -->
-
-					<!-- <div class="row">
-					
-						<div class="col-md-12">
-						
-						
-							<div id="head-slider" class="transistion">
-							
-								<div class="slide-contents">
-								
-									<div class="slide">
-									
-										<h2 class="im-sean">
-										
-											<figure class="transistion">
-											
-												<img src="./assets/144.png">
-											
-											</figure>
-										
-										</h2>
-										
-										<p class="header-desc">一个设dsadasdas业生</p>
-									
-									</div>
-								
-								
-								</div>
-								
-								   					
-							</div>
-						
-						
-						</div>  -->
-				
-					</div> 
-				
-				</div>
-	
-			</div>
-		
-		</div>
 		
 	</section>
 	
 	
 
-	<section id="i-can-help">
-	
-		<div class="container">
-		
-			<div class="row">
+	<section id="portfolio">
 			
-				<div class="col-md-12">
-				
-					<article>
-					
-					
-						<header>
-
-							<h2>敬请期待</h2>
-								
-						</header>
-						
-						
-
-					
-					</article>
-				
-				</div>
-
-				<div class="col-md-12">
-				
-					<article>
-					
-					
-						<header>
-
-							<h2>敬请期待</h2>
-								
-						</header>
-						
-						
-
-					
-					</article>
-				
-				</div>
-
-				<div class="col-md-12">
-				
-					<article>
-					
-					
-						<header>
-
-							<h2>敬请期待</h2>
-								
-						</header>
-						
-						
-
-					
-					</article>
-				
-				</div>
-			
-			</div>
+		<!-- <img class="pre_img" src="./assets/former.jpg/41b449b454d84395d35562688fccd0fb-1.jpg"/> -->
 		
-		</div>
+
+		
 	
 	
 	</section>
@@ -220,6 +111,16 @@
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/init.min.js"></script>
+    <script type="text/javascript">
+    	var portfolio = document.getElementById("portfolio");
+		for (var i = 33; i > 0; i--) {
+			var newItem = document.createElement("IMG");
+			newItem.className="pre_img";
+			newItem.src=`./assets/former.jpg/41b449b454d84395d35562688fccd0fb-${i}.jpg`;
+			portfolio.insertBefore(newItem, portfolio.children[0]);
+		}
+		
+    </script>
 
 </body>
 </html>

@@ -1,0 +1,26 @@
+/*!
+css
+*/
+#portfolio {
+    padding-top: 20px;
+    /*background-color: #eeebee;*/
+    text-align: center;	
+}
+/*#portfolio .portfolio_box {
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+}*/
+.pre_img {
+	padding-top: 20px;
+	padding-bottom: 20px;
+    width: 61.8%;
+}
+/*#portfolio .portfolio_box .img_box .prev_img {
+	transition: all 0.8s;
+	height:250;
+	width:250;
+}
+#portfolio .portfolio_box .title_box {
+}
+*/
