@@ -36,6 +36,22 @@ feed:
 plugins:
   - jekyll-feed
 
+# comments
+comments:
+  # 'disqus' / 'giscus' / 'utterances' are available
+  provider: giscus
+
+  giscus:
+    repo: "Laotree/Laotree.github.io"
+    repo_id: "R_kgDOHIQ1HA"
+    category: "Announcements"
+    category_id: "DIC_kwDOHIQ1HM4COc_M"
+    mapping: "pathname"
+    reaction-enabled: "1"
+    data-emit-metadata: "0"
+    theme: "light"
+    data-lang: "zh-CN"
+    crossorigin: "anonymous"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
