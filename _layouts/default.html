@@ -1,22 +1,34 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-
-{%- include head.html -%}
-
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | escape }} — {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+</head>
 <body>
 
-{%- include header.html -%}
-
-<main class="page-content" aria-label="Content">
-  <div class="wrapper">
-    {{ content }}
+<header class="site-header">
+  <div class="container">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+    <nav class="site-nav">
+      <a href="{{ '/about/' | relative_url }}">About</a>
+    </nav>
   </div>
+</header>
+
+<main class="container">
+  {{ content }}
 </main>
 
-{%- include giscus.html -%}
-
-{%- include footer.html -%}
+<footer class="site-footer">
+  <div class="container">
+    <span>{{ site.title }}</span>
+    <span>Shanghai</span>
+  </div>
+</footer>
 
 </body>
-
 </html>

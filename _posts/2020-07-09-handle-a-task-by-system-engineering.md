@@ -3,11 +3,6 @@ layout: post
 title: 系统工程地完成一个任务
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">09 July 2020 - Shanghai</p>
-
 ##  任务背景
 几个月前，我的发小guok找到我，请我一起完成一个任务，这个任务有很多部分组成：
 - 一个可以人脸识别的app

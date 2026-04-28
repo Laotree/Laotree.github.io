@@ -36,6 +36,14 @@ feed:
 plugins:
   - jekyll-feed
 
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: "highlight"
+    block:
+      line_numbers: false
+
 # comments
 comments:
   # 'disqus' / 'giscus' / 'utterances' are available

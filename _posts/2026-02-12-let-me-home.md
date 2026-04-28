@@ -3,11 +3,6 @@ layout: post
 title: 通过公网回家的一种方法
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">12 February 2026 - Shanghai</p>
-
 ##  安全第一
 
 如果希望从公网回家，安全是第一位的

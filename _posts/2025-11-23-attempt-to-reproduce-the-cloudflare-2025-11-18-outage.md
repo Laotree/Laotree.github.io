@@ -3,12 +3,6 @@ layout: post
 title: 尝试复现Cloudflare-2025-11-18的故障过程
 ---
 
-{{ page.title }}
-================
-
-<p class="meta">23 Nov 2025 - Shanghai</p>
-<p class="meta">attempt to reproduce the cloudflare outage</p>
-
 ## 项目地址
 [reproduce_cf20251118](https://github.com/Laotree/reproduce_cf20251118)
 
